@@ -9,6 +9,6 @@ console.log("Color of my eyes is " + barva)
 
 let rok = prompt("Write year of your birth");
 let dnesniDatum = Date.now();
-let pocetRoku = dnesniDatum - rok;
+let pocetRoku = dnesniDatum.getYear() - rok;
 
 console.log("User is " + pocetRoku + " old");

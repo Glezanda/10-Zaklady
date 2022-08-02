@@ -1,1 +1,1 @@
-console.log("JavaScript funguje!");
+console.log("LYRA");

@@ -8,6 +8,7 @@ console.log("Color of my eyes is " + barva)
 */
 
 let rok = prompt("Write year of your birth");
-let pocetRoku = 2022 - rok;
+let dnesniDatum = Date.now();
+let pocetRoku = dnesniDatum - rok;
 
 console.log("User is " + pocetRoku + " old");

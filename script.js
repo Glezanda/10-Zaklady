@@ -1,3 +1,3 @@
 console.log("Caligula");
 
-console.log("115");
+console.log( Math.random() );
